@@ -81,13 +81,14 @@ body {
 
 /*---- Product Section ----*/
 .product-item {
-  width: calc(100% / 3);
-  margin-bottom: 16px;
-}
-.product-item-image{
   font-size: 18px;
   font-weight: 600;
   border-radius: 18px;
+}
+
+.product-item-image{
+  width: calc(100% / 3);
+  margin-bottom: 16px;
 }
 
 .product-item-title {
