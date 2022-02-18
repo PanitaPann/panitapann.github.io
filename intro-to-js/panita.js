@@ -13,5 +13,21 @@ function askMyName() {
     const h1message = document.getElementById("name").innerText 
     
  // ใช้คำสั่ง document.getElementById เหมือนใน askMyName เพื่อเอาข้อความใน h1 มาใส่
-    alert(h1message + 'พี่นันพอจะมีสัก 200 มัั้ย?')
+    alert(h1message + 'พี่นันพอจะมีสัก 200 มัั้ย?');
+ }
+
+
+ function calAge() {
+   const yearOfBirth = Number (prompt("เกิดปีพ.ศ.อะไรเหรอ?"));
+   const currentlyYear = 2565;
+   let calAge  = currentlyYear - yearOfBirth;
+
+   alert(`ยินดีด้วย คุณท่าน อยู่ในประเทศนี้มา ${calAge} ปีแล้ว`)
+ }
+
+ function loadProfile() {
+   const name = 'Panita'
+   const province = 'Bangkok'
+   document.getElementById("my-name").innerHTML = name;
+   document.getElementById("my-province").innerHTML = province;
  }
