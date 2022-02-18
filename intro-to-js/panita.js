@@ -22,7 +22,7 @@ function askMyName() {
    const currentlyYear = 2565;
    let calAge  = currentlyYear - yearOfBirth;
 
-   alert(`ยินดีด้วย คุณท่าน อยู่ในประเทศนี้มา ${calAge} ปีแล้ว`)
+   alert(`ท่านเก่งมาก ที่มีชีวิคอยู่ใน ประเทศนี้! มาได้ถึง ${calAge} ปีแล้ว`)
  }
 
  function loadProfile() {
